@@ -1,0 +1,102 @@
+
+
+
+<div class="width_container">
+
+
+
+
+<div class="top_wrapper">
+
+<h1>VRコンテンツの発注なら VR Labo</h1>
+<p>「VRコンテンツ制作どこに頼めばいいか分からない」あなたに、ご要望に合わせて適切なコンテンツ制作会社・フリーランスエンジニアをご紹介・見積もりいたします。</p>
+
+ <%= link_to "▼", "#1" , class:"start-project_btn" %>
+
+</div>
+
+  <div id="1">
+<div class="about_vrlabo">
+ 
+<h2>VR Laboについて</h2>
+<p>VRLaboではお客様のご要望を聞き、そのご要望に適切な弊社提携コンテンツ制作会社・フリーランスエンジニアに、案件を回し、お客様の代わりとなってディレクティングしていきます。
+</p>
+
+
+
+<div class="howto_explain">
+<div class="how-icon1">
+
+  <%=image_tag( "/images/cliant.jpg", { :class => "cliant"}) %>
+    <h3>要望・案件を教えてください</h3>
+    <p>まずは、「こんなものが欲しい」などの希望内容をフォームからご記入ください。お電話でコンテンツ制作のご要望の詳細をお聞きし、お見積もりを無料で致します！</p>
+</div>
+
+
+<div class="how-icon2">
+  <%=image_tag( "/images/hearing.jpg", { :class => "hearing"}) %>
+    <h3>ヒアリングし、案件を回します</h3>
+      <p>お見積もり後、依頼を決定された場合あなたの必要とするコンテンツにピッタリなフリーランスエンジニア・制作会社を見つけ、あなたの代わりにディレンクティングをしながらご要望のものを創り上げます。</p>
+</div>
+
+
+<div class="how-icon3">
+   <%=image_tag( "/images/enginner.jpg", { :class => "enginner"}) %>
+    <h3>納品・最終ヒアリング</h3>
+      <p>ご指定の期間内に納品し、完成したものをお送りさせていただきます。その後ヒアリングをし、もし追加のご要望等があればまた制作をします。あなたが100%満足のいくように、修正点があれば修正を致します。</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="lets_estimate_wrapper">
+
+
+
+<h2>まずはお見積もりから！</h2>
+<p>フォームにご希望のコンテンツ制作内容をご記入ください。1〜2日以内にお見積もり結果を返答させていただきます。
+ <%= link_to "見積もりをする", "/estimates/new" , class:"start-project_btn" %>
+
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+ </div>
+
+</div>
+<p id="page-top"><a href="#wrap">▲</a></p>
+
+<script>
+$(function() {
+    var topBtn = $('#page-top');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 900) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
+});
+
+</script>

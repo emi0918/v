@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VR1</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<body>
+
+
+<header>
+<div class="width_container">
+  <div class="header_content">
+   <%= link_to image_tag('logo-min.png',class: 'logo'), "/" %>
+     
+      <ul class="mypage-header-right"> 
+        <li><%= link_to "ダッシュボード", "/login" %>
+</li>
+      </ul>
+  </div>
+  </div>
+  </header> 
+
+
+<%= yield %>
+
+
+
+
+
+
+
+<footer class="footer"> 
+
+<div class="width_container">
+
+    <div class="footer_content">
+        
+        <div class="footer_column">
+            <h4 class="content-title">Customers</h4> 
+                  <li>VR Laboとは？</li> 
+          </div> 
+          
+        <div class="footer_column">
+             <h4 class="content-title">Customers</h4>
+
+                  <li>VR Labo</li>
+                  <li>VR Labo</li> 
+              </div>
+
+        <div class="footer_column">
+             <h4 class="content-title">Company</h4>
+                  <li>VR Labo</li>
+                  <li>VR Labo</li> 
+              </div>
+        
+    </div>
+
+         
+ </footer>
+
+
+
+
+</div>
+
+
+          <div class="footer-bottom"> 
+  
+<div class="width_container">
+
+            <nav class="widget-menu"> 
+              <li>利用規約</a></li>
+              <li>プライバシポリシー</a></li> 
+              <li>特定商取引に基づく表記</a></li> 
+          </nav> 
+    </div>
+</div>
+    <div class="copy-right">© Seekle inc., All Rights Reseved.</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

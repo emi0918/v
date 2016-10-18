@@ -1,0 +1,286 @@
+// Place all the styles related to the estimates controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@media (min-width: 320px) and (max-width: 374px){
+
+.estimate_wrapper{
+	padding-top:100px;
+	height:0 auto;
+	width:90%;
+	margin:0 auto;
+margin-bottom:50px;
+}
+
+.estimate_wrapper .start-project_btn{
+	width:230px;
+	margin-top:10px;
+}
+
+.estimate_wrapper .start-project_btn:hover{
+	width:230px;
+	margin-top:14px;
+}
+
+span.required {
+
+    color: #F33;
+    border-radius: 3px;
+}
+span.form-label {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 3px 5px;
+}
+
+
+.estimate_wrapper h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.estimate_wrapper p{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.estimate_form{
+
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:17px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+}
+
+.large_estimate_form{
+    text-indent: 0px;
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:14px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+	height:200px;
+	vertical-align:top;
+}
+
+
+
+
+
+.large_estimate_form:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+
+
+input:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+}
+
+
+
+/* iPhone 6 */
+@media (min-width: 375px) {
+.estimate_wrapper{
+	padding-top:100px;
+	height:0 auto;
+	width:90%;
+	margin:0 auto;
+margin-bottom:50px;
+}
+
+.estimate_wrapper .start-project_btn{
+	width:230px;
+	margin-top:10px;
+}
+
+.estimate_wrapper .start-project_btn:hover{
+	width:230px;
+	margin-top:14px;
+}
+
+span.required {
+
+    color: #F33;
+    border-radius: 3px;
+}
+span.form-label {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 3px 5px;
+}
+
+
+.estimate_wrapper h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.estimate_wrapper p{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.estimate_form{
+
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:17px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+}
+
+.large_estimate_form{
+    text-indent: 0px;
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:14px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+	height:200px;
+	vertical-align:top;
+}
+
+
+
+
+
+.large_estimate_form:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+
+
+input:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+
+.estimate_wrapper{
+	padding-top:130px;
+	height:0 auto;
+	width:63%;
+	margin:0 auto;
+margin-bottom:50px;
+}
+
+.estimate_wrapper .start-project_btn{
+	width:230px;
+	margin-top:10px;
+}
+
+.estimate_wrapper .start-project_btn:hover{
+	width:230px;
+	margin-top:14px;
+}
+
+span.required {
+
+    color: #F33;
+    border-radius: 3px;
+}
+span.form-label {
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 3px 5px;
+}
+
+
+.estimate_wrapper h2{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.estimate_wrapper p{
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.estimate_form{
+
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:17px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+}
+
+.large_estimate_form{
+    text-indent: 0px;
+ letter-spacing:1px;
+	border:3px solid gray;
+	border-radius:4px;
+	width:100%;
+	font-size:14px;
+	padding:9px;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-weight:200;
+	height:200px;
+	vertical-align:top;
+}
+
+
+
+
+
+.large_estimate_form:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+
+
+input:focus {
+outline: 4px solid 	#696969 ;
+	border-radius:4px;
+}
+
+}
+
+.field{
+
+}

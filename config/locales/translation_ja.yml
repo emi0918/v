@@ -1,0 +1,11 @@
+ja:
+  activerecord:
+    models:
+      estimate: "見積もり"  #g
+
+    attributes:
+      estimate:
+        content: "ご依頼内容の詳細"  #g
+        email: Eメール  #g
+        name: "お名前"  #g
+        phonenumber: "電話番号"  #g

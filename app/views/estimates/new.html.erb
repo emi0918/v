@@ -1,0 +1,48 @@
+ <% provide :title, "- お見積もりフォーム" %> 
+
+<div class="width_container">
+<div class="estimate_wrapper">
+<h2>お見積もりフォーム</h2>
+<p>フォームにご希望のコンテンツ制作内容をご記入ください。<br>1〜2日以内にお見積もり結果を返答させていただきます。</p>
+<%= form_for(@estimate) do |f| %>
+  <% if @estimate.errors.any? %>
+    <div id="error_explanation">
+   
+      <ul>
+      <% @estimate.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+      <%= f.label :お名前 %><span class="form-label required">※必須</span> <br />
+      <%= f.text_field :name, class: 'estimate_form',placeholder:"" %>
+</div>
+
+  <div class="field">
+      <%= f.label :メールアドレス %><span class="form-label required">※必須</span> <br />
+      <%= f.text_field :email, class: 'estimate_form',placeholder:"" %>
+       </div>
+         <div class="field">
+        <%= f.label :電話番号 %><span class="form-label required">※必須</span> <br />
+      <%= f.text_field :phonenumber, class: 'estimate_form',placeholder:"" %>
+    </div>
+      <div class="field">
+      <%= f.label :ご依頼内容の詳細 %><span class="form-label required">※必須</span> <br />
+      <%= f.text_area :content, class: 'large_estimate_form',placeholder:"" %>
+ </div>
+
+
+
+  <div class="actions">
+
+<%= f.submit '見積もりをする', class: 'start-project_btn', data:{ disable_with: "送信中・・・"} %> 
+  </div>
+<% end %>
+
+
+
+</div>
+</div>

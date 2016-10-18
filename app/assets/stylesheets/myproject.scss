@@ -1,0 +1,67 @@
+.myproject_wrapper{
+padding-top:180px;
+	height:800px;
+}
+
+.myproject_wrapper h2{
+ text-align:center;
+ margin-bottom:60px;
+ font-size:37px;
+}
+
+
+.myprojects{
+	width:100%;
+}
+
+ .project_name{
+
+height:170px;
+		font-size:22px;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	padding:70px;
+	cursor:pointer;
+	border:2px solid #008B8B;
+	width:33%; 
+
+	border-radius:3%;
+	margin:0 auto;
+	margin-top:60px;
+
+}
+.myproject_wrapper a:hover{
+	color:white;
+}
+
+.build_new_project a:hover{
+	color:black;
+}
+
+.project_name:hover{
+color:white;
+	background-color:#008B8B;
+}
+
+
+
+.build_new_project{
+
+height:170px;
+		font-size:18px;
+	font-weight:normal;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+	padding:70px;
+	cursor:pointer;
+
+	width:33%; 
+  border:2px dotted #008B8B;
+	border-radius:3%;
+	margin:0 auto;
+	margin-top:60px;
+
+}
