@@ -164,11 +164,16 @@ color:white;
 
 }
 
-.widget-menu li{
+.width_container .widget-menu a {
+color:white;
+}
+
+.width_container .widget-menu li{
 float:left;
 font-size: 12px;
 margin-top:4px;
 margin-right: 30px;
+color:white;
 }
 
 .copy-right{
