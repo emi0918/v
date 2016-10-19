@@ -73,4 +73,5 @@ get '/signage' => 'top#signage'
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+    get '*path', controller: 'application', action: 'render_404'
 end
