@@ -108,9 +108,10 @@ $(function(){
 <div class="width_container">
 
             <nav class="widget-menu"> 
-              <li>利用規約</a></li>
-              <li>プライバシポリシー</a></li> 
-              <li>特定商取引に基づく表記</a></li> 
+              <li><%= link_to "利用規約", term_path%></li>
+              <li><%= link_to "プライバシーポリシー", policy_path%></li> 
+              <li><%= link_to "特定商取引法", signage_path%></li>
+              
           </nav> 
     </div>
 </div>
