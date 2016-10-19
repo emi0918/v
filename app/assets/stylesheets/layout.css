@@ -237,3 +237,8 @@ margin-top:20px;
 #error_explanation ul li{
 	line-height: 3px;
 }
+
+.error_wrapper{
+	padding-top: 100px;
+	height:300px;
+}
