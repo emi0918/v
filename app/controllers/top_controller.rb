@@ -14,6 +14,14 @@ def company
          
 end
 
+def policy
+end
+
+def term
+  end
+
+  def signage
+  end
 
   def login
   	    render :layout => 'sign_up_layout.html'
