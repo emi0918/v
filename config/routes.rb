@@ -12,6 +12,11 @@ Rails.application.routes.draw do
    get '/login' => 'top#login'
    get '/signup' => 'top#signup'
 
+get '/policy' => 'top#policy'
+
+get '/term' => 'top#term'
+
+get '/signage' => 'top#signage'
 
    get '/about' => 'top#about'
   # The priority is based upon order of creation: first created -> highest priority.
